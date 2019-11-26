@@ -12,7 +12,6 @@ public class Triangle extends Shape {
 
     @Override
     public double area() {
-        // Heron's formula:
         // A = SquareRoot(s * (s - a) * (s - b) * (s - c))
         // where s = (a + b + c) / 2, or 1/2 of the perimeter of the triangle
         double s = (a + b + c) / 2;
